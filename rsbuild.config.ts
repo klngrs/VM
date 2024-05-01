@@ -14,7 +14,7 @@ export default defineConfig({
     writeToDisk: true,
   },
   output: {
-    assetPrefix: 'http://localhost:2000',
+    assetPrefix: 'https://gateway.ipfs.io/ipns/klngrs.cloud/', // near-vm ipfs folder CID
     // externals: {
     //   react: {
     //     commonjs: "react",
